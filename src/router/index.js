@@ -132,7 +132,10 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  NProgress.start();
+  // 仅刷新路由的时候才有进度条
+  if (to.path !== from.path) {
+    NProgress.start();
+  }
   next();
 });
 

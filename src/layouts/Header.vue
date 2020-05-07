@@ -1,6 +1,11 @@
 <template>
-  <div>Header头部</div>
+  <div class="header">Header头部</div>
 </template>
 <script>
 export default {};
 </script>
+<style scoped>
+.header {
+  float: right;
+}
+</style>

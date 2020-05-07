@@ -1,5 +1,5 @@
 <template>
-  <div>Footer底部</div>
+  <div>Ant Design ©2018 Created by Ant UED</div>
 </template>
 <script>
 export default {};
